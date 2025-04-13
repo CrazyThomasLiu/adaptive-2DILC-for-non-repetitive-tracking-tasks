@@ -10,3 +10,9 @@ Data/*.csv
 !Data/RMSE_mbilc_paper.csv
 !Data/RMSE_mfilc_paper.csv
 !Data/RMSE_PI_Robust_paper.csv
+comparison_algorithm/*.csv
+comparison_algorithm/*.py
+!comparison_algorithm/demo_simulation_paper.py
+!comparison_algorithm/__init__.py
+!comparison_algorithm/pi_controller_paper.py
+!comparison_algorithm/robust_pi_controller_paper.py
