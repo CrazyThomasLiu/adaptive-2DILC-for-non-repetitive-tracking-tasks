@@ -20,8 +20,8 @@ python demo_mboilc.py
 ```
 python demo_mfilc.py
 ```
-![image](https://github.com/CrazyThomasLiu/2d_linear_oc/blob/master/workspace2/mfoilc_input.jpg)
-![image](https://github.com/CrazyThomasLiu/2d_linear_oc/blob/master/workspace2/mfoilc_response.jpg)
+![image](https://github.com/CrazyThomasLiu/adaptive-2DILC-for-non-repetitive-tracking-tasks/blob/master/mfilc_response_paper.jpg)
+![image](https://github.com/CrazyThomasLiu/adaptive-2DILC-for-non-repetitive-tracking-tasks/blob/master/mfilc_control_signal_paper.jpg)
 
 
 
@@ -37,17 +37,8 @@ Compare the control performance between the 2D model-based optimal ILC, the mode
 ```
 python demo_compare_RMSE.py
 ```
-![image](https://github.com/CrazyThomasLiu/2d_linear_oc/blob/master/workspace2/Compare_RMSE.jpg)
+![image](https://github.com/CrazyThomasLiu/adaptive-2DILC-for-non-repetitive-tracking-tasks/blob/master/RMSE_paper.jpg)
 
 
-
-
-# Citation:
-The 2D Iterative Learning Control with Deep Reinforcement Learning Compensation for the Non-repetitive Uncertainty Batch Processes was published in the Journal of Process Control.
-
-
-```
-Liu J, Zhou Z, Hong W, et al. Two-dimensional iterative learning control with deep reinforcement learning compensation for the non-repetitive uncertain batch processes[J]. Journal of Process Control, 2023, 131: 103106.
-```
 
 
