@@ -25,14 +25,22 @@ python demo_mfilc.py
 
 
 
-## Sample the operation batch data
-Run the following command to obtain the operation data by using the model-free P-type ILC.
+## Run the comparison method PI-based indirect-type ILC
+Run the following command to obtain control law.
 ```
-python demo_pilc_sample.py 
+python pi_controller_paper.py 
 ```
 
-## Test for the control performance
-Compare the control performance between the 2D model-based optimal ILC, the model-free off-policy optimal ILC, and the PI-based indirect-type ILC.
+```
+python robust_pi_controller_paper.py 
+```
+Simulate the injection molding process with non-repetitive tracking tasks under the PI-based indirect-type ILC
+```
+python demo_simulation_paper.py
+```
+
+## Test for the control performance 
+Compare the control performance between the model-based two-dimensional Iterative Learning Control, the model-free adaptive two-dimensional Iterative Learning Control, and the PI-based indirect ILC.
 
 ```
 python demo_compare_RMSE.py
