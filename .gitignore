@@ -1,6 +1,2 @@
-.pdf
-.csv
-.py
-!demo_mbilc_paper.py
-!demo_mfilc_paper.py
-!demo_rmse_paper.py
+*.pdf
+RMSE_mbilc.csv
