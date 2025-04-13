@@ -50,4 +50,5 @@ plt.tick_params(labelsize=13)
 plt.legend(['Model-based 2D ILC','Model-free adaptive 2D ILC','Robust PI-based ILC'],fontsize='13')
 if save_figure==True:
     plt.savefig('RMSE_paper.pdf')
+    plt.savefig('RMSE_paper.jpg',dpi=800)
 plt.show()

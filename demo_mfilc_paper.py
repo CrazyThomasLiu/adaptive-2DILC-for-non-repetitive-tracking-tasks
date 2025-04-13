@@ -230,7 +230,8 @@ ax1.legend(['Output Response','Reference Trajectory'],bbox_to_anchor=(1.1, 1.1),
 ax1.view_init(29, -47)
 plt.tick_params(labelsize=11)
 if save_figure==True:
-    plt.savefig('mfilc_response_paper.pdf')
+    #plt.savefig('mfilc_response_paper.pdf')
+    plt.savefig('mfilc_response_paper.jpg',dpi=800)
 
 
 '5.2 the control signal for the 1D batch system'
@@ -256,7 +257,8 @@ ax2.set_zlabel(zlable,font2)
 
 ax2.view_init(39, -47)
 if save_figure==True:
-    plt.savefig('mfilc_control_signal_paper.pdf')
+    #plt.savefig('mfilc_control_signal_paper.pdf')
+    plt.savefig('mfilc_control_signal_paper.jpg',dpi=800)
 
 
 
@@ -276,5 +278,3 @@ if save_csv == True:
     df_RMSE.to_csv('RMSE_mfilc_paper.csv')
 
 plt.show()
-pdb.set_trace()
-a=2
