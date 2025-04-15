@@ -16,8 +16,8 @@ import pandas as pd
 import csv
 # save the figure or not
 
-save_figure=True
-save_csv=True
+save_figure=False
+save_csv=False
 batch_length = 100
 batch_num=20
 

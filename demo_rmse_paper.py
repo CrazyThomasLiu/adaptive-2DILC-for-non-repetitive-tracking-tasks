@@ -33,9 +33,9 @@ fig,ax0=plt.subplots(1,1,figsize=(8,5.5))
 x_major_locator=MultipleLocator(int(iteration_num/10))
 ax0=plt.gca()
 ax0.xaxis.set_major_locator(x_major_locator)
-ax0.plot(iteration_axis,RMSE_mbilc,linewidth=2,color='darkorange',linestyle = 'solid')
-ax0.plot(iteration_axis,RMSE_mfilc,linewidth=2.3,color='royalblue',linestyle = 'dotted')
-ax0.plot(iteration_axis,RMSE_pi_robust,linewidth=2,color='orangered',linestyle = 'dashdot')
+ax0.plot(iteration_axis,RMSE_mbilc,linewidth=2,color='darkorange',linestyle = 'solid',marker='*',ms='6')
+ax0.plot(iteration_axis,RMSE_mfilc,linewidth=2.3,color='royalblue',linestyle = 'dotted',marker='D',ms='4')
+ax0.plot(iteration_axis,RMSE_pi_robust,linewidth=2,color='orangered',linestyle = 'dashdot',marker='o',ms='4')
 ax0.grid()
 
 xlable = 'Batch: $k$'
